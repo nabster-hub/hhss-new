@@ -56,7 +56,7 @@ export default function Home() {
                     <h2 className={"w-full max-xl:text-center 3xl:w-[450px] uppercase font-normal text-left text-base xl:text-2xl leading-5 xl:leading-7 tracking-[-0.07rem]"}>
                         ARCHITECTURE FOR NATIONAL HEALTH INTELLIGENCE</h2>
                     <span className={"max-xl:text-center 3xl:w-[530px] block text-[14px] max-md:leading-5 xl:text-lg text-[#333333]/80 text-left"}>HHSS combines a unified health-data standard with decision, modelling, accountability, and simulation layers to structure parameters, analyse risks, and test reforms across national health systems</span>
-                    <span className={"block max-xl:text-center 3xl:w-[400px] text-brand text-[14px] leading-5 xl:text-lg text-left xl:leading-8"}>Enables governments to observe population well-being and reduce national medical costs</span>
+                    <span className={"block max-xl:text-center 3xl:w-[400px] text-brand text-[14px] leading-5 xl:text-lg text-left xl:leading-8"}>Enables governments to monitor public well-being and reduce country-wide medical costs</span>
                 </div>
             </div>
             <div className={"flex flex-col justify-center gap-8"}>
