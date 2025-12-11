@@ -8,13 +8,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "HHSS – Human Health Support System: Revolutionizing Healthcare with Decentralized AI",
+  title: "Human Health Support System: Predictive, Population-Health Governance",
   description: "An infrastructure that unifies a future-focused medical data standard, AI-driven intelligence, and national governance tools — establishing the foundation for a country’s transition to predictive population-health management",
     alternates: {
         canonical: './',
     },
     openGraph: {
-        title: "HHSS – Human Health Support System: Revolutionizing Healthcare with Decentralized AI",
+        title: "Human Health Support System: Predictive, Population-Health Governance",
         description: "An infrastructure that unifies a future-focused medical data standard, AI-driven intelligence, and national governance tools — establishing the foundation for a country’s transition to predictive population-health management",
         images: ["/13106b318036c693e8e0ca9f9e5a0a808b305fa6.png"],
     },
