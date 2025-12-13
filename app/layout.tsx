@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -9,7 +9,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://hhss.global'),
-  title: "Human Health Support System: Predictive, Population-Health Governance",
+  title: "HHSS — The Future of Health",
   description: "An infrastructure that unifies a future-focused medical data standard, AI-driven intelligence, and national governance tools — establishing the foundation for a country’s transition to predictive population-health management",
     alternates: {
         canonical: './',
@@ -21,11 +21,8 @@ export const metadata: Metadata = {
     },
     icons: {
         icon:[
-            { url: '/favicon.ico', type: 'image/x-icon' },
-            { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-            { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-        ],
-        apple: "/apple-touch-icon.png",
+            { url: '/favicon.png', type: 'image/png' },
+        ]
     }
 };
 
