@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import Modal from "@/src/components/modal";
+import ModalTrigger from "@/src/components/modalTrigger";
 
 
 export default function Home() {
@@ -19,8 +21,7 @@ export default function Home() {
                         <div className={"flex flex-col gap-3 w-full"}>
                             <Link href={linkExplore}
                                   className={"py-4 px-6 text-center font-medium text-xs block w-full bg-brand-yellow hover:bg-brand text-brand hover:text-brand-yellow transition-all rounded-2xl"}>EXPLORE</Link>
-                            <Link href={linkConnect}
-                                  className={"py-5 px-6 text-center font-medium text-xs block w-full bg-brand hover:bg-brand-yellow text-brand-yellow hover:text-brand transition-all rounded-2xl"}>CONNECT</Link>
+                            <ModalTrigger mobile />
                         </div>
                         <i className={"md:hidden"}>
                             <svg className={"animation"} width="25" height="56" viewBox="0 0 25 56" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,8 +65,7 @@ export default function Home() {
                     <Link href={linkExplore}
                           className={"py-5 px-6 bg-brand-yellow hover:bg-brand text-brand hover:text-brand-yellow transition-all rounded-2xl"}>EXPLORE</Link>
                     <Image src={"/logo.svg"} alt={"HHSS logo"} width={81} height={32}/>
-                    <Link href={linkConnect}
-                          className={"py-5 px-6 bg-brand hover:bg-brand-yellow text-brand-yellow hover:text-brand transition-all rounded-2xl"}>CONNECT</Link>
+                    <ModalTrigger mobile={false} />
                 </div>
                 <div className={"flex justify-center"}>
                     <span className={"text-[#333333]/40 text-xs xl:text-base font-normal tracking-[-0.06rem]"}>Full website coming soon</span>
