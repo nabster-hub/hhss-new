@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
     const linkConnect = "https://www.linkedin.com/in/eternalxleader/";
-    const linkExplore = "/HHSS - ABOUT presentation.pdf";
+    const linkExplore = "/HHSS - presentation.pdf";
     return (
         <main
             className="flex flex-col gap-8 min-h-screen items-center justify-center font-inter container mx-auto pt-8 pb-16 max-xl:px-8 xl:py-8">
