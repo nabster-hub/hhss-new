@@ -41,7 +41,7 @@ const Modal = ({onClose}) => {
                 <div className={"flex flex-col gap-5"}>
                     <h3 className={"font-inter text-brand font-semibold text-3xl leading-[120%] tracking-[-0.06em]"}>Direct communication with the Founder</h3>
                     <span className={"font-inter text-[#333333] font-light text-xl leading-[30px]"}>
-                        For official inquiries from governments, public institutions, regulators, strategic partners, and institutional investors regarding HHSS infrastructure & standard.
+                        For official inquiries from governments, public institutions, regulators and strategic partners regarding HHSS infrastructure & standard.
                     </span>
                 </div>
                 <div className={"flex max-md:flex-col gap-[10px]"}>
@@ -62,7 +62,7 @@ const Modal = ({onClose}) => {
                             </i>
                         )}
                     </div>
-                    <Link href={"mailto:ds@hhss.global"} className={"bg-brand flex items-center justify-center py-[23.5px] w-full md:w-[197px] px-6 text-sm text-brand-yellow rounded-2xl"}>COMPOSE EMAIL</Link>
+                    <Link href={"mailto:ds@hhss.global"} className={"bg-brand hover:bg-brand-yellow flex items-center justify-center py-[23.5px] w-full md:w-[197px] px-6 text-sm text-brand-yellow hover:text-brand transition-all rounded-2xl"}>COMPOSE EMAIL</Link>
                 </div>
 
             </div>
